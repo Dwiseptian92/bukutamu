@@ -1,0 +1,94 @@
+*{
+	font-family: Verdana, sans-serif;
+  	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+  font-family:'fontmenu';
+  src:url('fonts/Fontawesome-webfont.ttf') format('truetype');
+  font-style:normal;
+  font-weight:normal;
+}
+
+body{
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+	width: 1346px;
+	font-size: 14px;
+}
+
+#wrapper{
+	width: 1346px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	background: url(../images/header-silhk.jpg) no-repeat;
+	height:109px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0;
+	overflow: hidden;
+	-webkit-box-shadow: 0 5px 5px #b1b1b1, inset 0 1px 0 #838383;
+    -moz-box-shadow: 0 5px 5px #b1b1b1, inset 0 1px 0 #838383;
+    box-shadow: 0 5px 5px #b1b1b1, inset 0 1px 0 #838383;  
+}
+#header img{ 
+	width: 420px; 
+	height: 75px;
+	margin-left: 5px;
+	margin-top: 30px;
+	float: left;
+}
+#text-header{
+	font-family: Arial, sans-serif;
+	margin-left: 0px;
+	margin-top: 25px;
+	padding: 8px 10px;
+	color: #000;
+	}
+
+	#text-header p{
+		color: #f4f4f4;
+		text-decoration: none;
+	}
+
+#menu-admin{
+	margin-top: 3px;
+	margin-right: 53px;
+	list-style: none;
+	font-family: Arial, sans-serif;
+}
+
+#menu-admin li{
+	float: right;
+	padding: 8px 3px;
+	margin-top: 53px;
+	
+}
+
+#menu-admin a{
+	text-decoration: none;
+}
+
+#content{
+	float:left;
+	width:auto;
+	padding-left:0px;
+	padding-bottom:5px;
+	margin-left:0px;
+	margin-top:12px;
+}
+
+#footer{
+	height:80px;
+	width: 100%;
+	padding: 0px;
+	margin-top: 5px;
+	overflow: hidden;
+}
