@@ -49,12 +49,6 @@ function harusangka(jumlah){
                                     </div>
                                 </div>
                                 <div class="form-group">          
-                                    <label class="col-md-3 control-label">No KTP</label>
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" name="id_ktp" placeholder="No KTP" required data-bv-notempty-message="No KTP harus di isi!">
-                                    </div>
-                                </div>
-                                <div class="form-group">          
                                     <label class="col-md-3 control-label">Nama</label>
                                     <div class="col-md-6">
                                         <input type="text" class="form-control" name="nama" placeholder="Nama lengkap tamu" required data-bv-notempty-message="Nama karyawan harus di isi!">

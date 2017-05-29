@@ -22,7 +22,6 @@ DROP TABLE IF EXISTS `tamu`;
 
 CREATE TABLE `tamu` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `id_ktp` int(11) DEFAULT NULL,
   `nama` varchar(200) DEFAULT NULL,
   `perusahaan` varchar(200) DEFAULT NULL,
   `pic` varchar(200) DEFAULT NULL,

@@ -46,12 +46,6 @@ function harusangka(jumlah){
                                 <input type="hidden" class="form-control" name="id" value="<?php echo $tampil['id']; ?>">
                             </div>
                         </div>
-                         <div class="form-group">          
-                            <label class="col-md-3 control-label">No KTP</label>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" name="id_ktp" placeholder="No KTP" required data-bv-notempty-message="No KTP harus di isi!" value="<?php echo $tampil['id_ktp']; ?>">
-                            </div>
-                        </div>
                         <div class="form-group">          
                             <label class="col-md-3 control-label">Nama</label>
                             <div class="col-md-6">
