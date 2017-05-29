@@ -50,7 +50,6 @@ include 'config/koneksi.php';
                               <tr>
                                 <th style="width:20px;">No</th>
                                 <th style="width:120px;">Status</th>
-                                <th style="width:70px;">KTP</th>
                                 <th style="width:150px;">Nama</th>
                                 <th style="width:200px;">Perusahaan / Divisi</th>
                                 <th style="width:150px;">PIC Data Center</th>
@@ -78,7 +77,6 @@ include 'config/koneksi.php';
                                   <a class="btn btn-default btn-sm" href="">Sudah Checkout</a>
                                 <?php }?>
                               </td>
-                              <td><?php echo $tampil['id_ktp'] ?></td>
                               <td><?php echo $tampil['nama'] ?></td>
                               <td><?php echo $tampil['perusahaan'] ?></td>
                               <td><?php echo $tampil['pic'] ?></td>
