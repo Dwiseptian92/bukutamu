@@ -12,7 +12,11 @@ $keperluan = $_POST['keperluan'];
 $tgl_jam_masuk = $_POST['tgl_jam_masuk'];
 
 
-$query = mysql_query("INSERT INTO tamu VALUES('', '$nama', '$perusahaan', '$pic', '$no_telp', '$keperluan', '$tgl_jam_masuk', '')");
+$query = mysql_query("INSERT INTO tamu VALUES('', '$nama', '$perusahaan', '$pic', '$no_telp', '$keperluan', '$tgl_jam_masuk', '', '1')");
+
+// echo "<pre>";
+// print_r($query);
+// die();
 
 if ($query) {
 		echo "<script>alert('Data berhasil disimpan');
